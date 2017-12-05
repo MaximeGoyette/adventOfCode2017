@@ -32,3 +32,6 @@ c1 = find_v(a, n)
 c2 = find_v(a, 1)
 
 print abs(c1[0] - c2[0]) + abs(c1[1] - c2[1])
+
+for x in a:
+    print '\t'.join(map(str, x))
