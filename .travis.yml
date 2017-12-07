@@ -7,4 +7,4 @@ script:
     - pytest
 install:
     - pip2 install sympy
-    - pips install anytree
+    - pip2 install anytree
