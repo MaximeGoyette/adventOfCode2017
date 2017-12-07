@@ -1,6 +1,4 @@
-from sys import argv
-
-a = argv[1]
+a = open('1.txt').read()
 
 total = 0
 jump = len(a)//2

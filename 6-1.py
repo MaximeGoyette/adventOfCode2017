@@ -1,5 +1,5 @@
-a = "14	0	15	12	11	11	3	5	1	6	8	4	9	1	8	4".split('\t')
-
+a = open('6.txt').read()
+a = a.split('\t')
 a = map(int, a)
 
 c = []

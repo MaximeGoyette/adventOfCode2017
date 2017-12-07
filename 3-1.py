@@ -1,6 +1,6 @@
 import math
 
-n = 21
+n = 361527
 size = int(math.ceil(n**0.5))
 d = [(0, 1), (-1, 0), (0, -1), (1, 0)]
 cd = 0
@@ -32,6 +32,3 @@ c1 = find_v(a, n)
 c2 = find_v(a, 1)
 
 print abs(c1[0] - c2[0]) + abs(c1[1] - c2[1])
-
-for x in a:
-    print '\t'.join(map(str, x))
