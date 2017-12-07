@@ -1,0 +1,11 @@
+language: python
+python:
+    - 2.7.12
+dist: trusty
+os: linux
+script: 
+    - pytest
+install:
+    - pip2 install sympy
+    - pip2 install itertools
+    - pips install anytree
