@@ -7,5 +7,4 @@ script:
     - pytest
 install:
     - pip2 install sympy
-    - pip2 install itertools
     - pips install anytree
