@@ -39,6 +39,12 @@ def test_6_2():
 def test_7_1():
     assert 'fbgguv' == check_output('python2 7-1.py', shell=True).strip('\n')
 
-def test_7_1():
+def test_7_2():
     #no
     assert True
+
+def test_8_1():
+    assert str(7296) == check_output('python2 8-1.py', shell=True).strip('\n')
+
+def test_8_2():
+    assert str(8186) == check_output('python2 8-2.py', shell=True).strip('\n')
