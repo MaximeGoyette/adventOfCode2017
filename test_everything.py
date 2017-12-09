@@ -48,3 +48,9 @@ def test_8_1():
  
 def test_8_2():
     assert str(8186) == check_output('python2 8-2.py', shell=True).strip('\n')
+
+def test_9_1():
+    assert str(8337) == check_output('python2 9-1.py', shell=True).strip('\n')
+
+def test_9_2():
+    assert str(4330) == check_output('python2 9-2.py', shell=True).strip('\n')
