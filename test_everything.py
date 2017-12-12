@@ -60,3 +60,9 @@ def test_10_1():
 
 def test_10_2():
     assert 'aff593797989d665349efe11bb4fd99b' == check_output('python2 10-2.py', shell=True).strip('\n')
+
+def test_12_1():
+    assert str(288) == check_output('python2 12-1.py', shell=True).strip('\n')
+
+def test_12_2():
+    assert str(211) == check_output('python2 12-2.py', shell=True).strip('\n')
