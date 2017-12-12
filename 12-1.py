@@ -1,5 +1,3 @@
-import numpy as np
-
 a = open('12.txt').read()
 a = a.split('\n')
 a = [x.split(' <-> ') for x in a]
