@@ -7,14 +7,9 @@ for x in a:
     firewall[x[0]] = x[1]
 
 def is_safe(firewall, delay):
-    pico = delay
-    pos = 0
-
-    while pos < len(firewall):
-        if firewall[pos] > 0 and pico%(2*(firewall[pos] - 1)) == 0:
+    for i in range(len(firewall)):
+        if firewall[i] > 0 and (delay + i)%(2*(firewall[i] - 1)) == 0:
             return False
-        pico += 1
-        pos += 1
 
     return True
 
